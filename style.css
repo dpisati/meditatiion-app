@@ -27,7 +27,7 @@
 
 .player-container svg {
 	position: absolute;
-	height: 50%;
+	height: 25%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) rotate(-90deg);
@@ -54,13 +54,21 @@
 video {
 	position: fixed;
 	top: 0%;
-	left: 0%;
+	left: 0%;	
 	width: 100%;
 	z-index: -10;
 }
 
+@media (max-width:1300px){
+    video {
+	    height: 100%;
+	    width: auto;
+    }
+}
+
 .time-select button,
 .sound-picker button {
+	min-width: 110px;
 	color: white;
 	width: 30%;
 	height: 10%;
