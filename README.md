@@ -36,7 +36,7 @@ The project is made with:
 
 <a id="how-to-use"></a>
 
-## :fire: How to Use
+## :fire: How to Use:
 
 ```sh
   $ git clone https://github.com/dpisati/meditation-app.git
